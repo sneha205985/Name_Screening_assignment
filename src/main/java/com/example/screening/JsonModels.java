@@ -32,9 +32,6 @@ public final class JsonModels {
         }
     }
 
-    // ---------------------------
-    // OUTPUT MODELS
-    // ---------------------------
     @JsonInclude(JsonInclude.Include.NON_NULL)
     public static class ConsolidatedOutput {
         public String requestId;
